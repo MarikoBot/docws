@@ -5,7 +5,7 @@
     <variables>
         <color-preset>contrast</color-preset>
         <primary-color>iris</primary-color>
-        <header-logo>CroppedShadow.png</header-logo>
+        <header-logo>pfp1.jpg</header-logo>
     </variables>
     <build-profile instance="mariko">
         <variables>
