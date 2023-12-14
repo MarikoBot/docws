@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Introduction to Mariko" id="introduction">
+
+    <chapter title="What is Mariko ?" id="about-mariko-chapter">
+        <p>Mariko is a <a href="#about-bots-chapter">Discord bot</a> that provides powerful and multipurpose tools.</p>
+        <deflist collapsible="true">
+            <def title="鬼滅の刃: Demon Slayer RPG" collapsible="true" default-state="expanded">
+                The bot provides a whole RPG game. Dive into the verse of <i>Koyoharu Gotouge</i> and embody a character <b>to become the strongest slayer</b>, or <b>the most devilish demon</b>.
+            </def>
+            <def title="Leveling Tools" collapsible="true" default-state="collapsed">
+                The classic leveling system. Fully customizable. When people chat in your Discord server, they earn XP.
+            </def>
+        </deflist>
+    </chapter>
+    <chapter title="What is a Discord bot ?" id="about-bots-chapter">
+        <p>
+            Mariko is a Discord bot
+        </p>
+    </chapter>
+</topic>
