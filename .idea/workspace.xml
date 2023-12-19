@@ -4,17 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="First release: daylight-cycle.topic preview.">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" afterDir="false" />
-    </list>
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Updated the buildprofiles.xml variables" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
@@ -61,20 +62,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/panda/OneDrive/Documents/projects/mariko/docws&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "doc-deployment",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/panda/OneDrive/Documents/projects/mariko/docws",
+    "settings.editor.selected.configurable": "fileTemplates"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Build Mariko (mariko)" type="StardustRunConfiguration" factoryName="save-as-zip">
       <option name="folderPath" value="$PROJECT_DIR$" />
@@ -91,6 +92,7 @@
     <MESSAGE value="I forgot the deploy job lmao" />
     <MESSAGE value="I forgot the permission xDD" />
     <MESSAGE value="First release: daylight-cycle.topic preview." />
-    <option name="LAST_COMMIT_MESSAGE" value="First release: daylight-cycle.topic preview." />
+    <MESSAGE value="Updated the buildprofiles.xml variables" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the buildprofiles.xml variables" />
   </component>
 </project>
