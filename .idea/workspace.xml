@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Published rebuilt version">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-    </list>
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="I forgot the permission xDD" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,6 +84,8 @@
     <MESSAGE value="Testing features" />
     <MESSAGE value="Publishing deployment with Actions and Docker" />
     <MESSAGE value="Published rebuilt version" />
-    <option name="LAST_COMMIT_MESSAGE" value="Published rebuilt version" />
+    <MESSAGE value="I forgot the deploy job lmao" />
+    <MESSAGE value="I forgot the permission xDD" />
+    <option name="LAST_COMMIT_MESSAGE" value="I forgot the permission xDD" />
   </component>
 </project>
