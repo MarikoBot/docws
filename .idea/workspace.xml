@@ -4,22 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Testing features">
-      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/Daylight-Cycle.topic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/Demon-Slayer-RPG.topic" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webHelpMARIKO2-all.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Publishing deployment with Actions and Docker">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/Admin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/Announcements.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/Crown.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/Katana.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/New.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/Shield.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/mariko.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/mariko.tree" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/introduction.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/introduction.topic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/writerside.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/writerside.cfg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +85,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Testing features" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testing features" />
+    <MESSAGE value="Publishing deployment with Actions and Docker" />
+    <option name="LAST_COMMIT_MESSAGE" value="Publishing deployment with Actions and Docker" />
   </component>
 </project>
