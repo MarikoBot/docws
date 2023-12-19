@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Updated the buildprofiles.xml variables" />
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="dev-env: .idea updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/daylight-cycle.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/daylight-cycle.topic" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,6 +96,7 @@
     <MESSAGE value="I forgot the permission xDD" />
     <MESSAGE value="First release: daylight-cycle.topic preview." />
     <MESSAGE value="Updated the buildprofiles.xml variables" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the buildprofiles.xml variables" />
+    <MESSAGE value="dev-env: .idea updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="dev-env: .idea updates" />
   </component>
 </project>

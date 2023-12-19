@@ -19,38 +19,58 @@
     </chapter>
 
     <chapter id="daylight-solo-version" title="Solo version of the daylight cycle">
+
         <tabs>
             <tab title="Human" instance="">
                 <table style="header-column">
-                    <snippet id="solo-trigger-row">
-                        <tr>
-                            <td width="100px">Trigger</td>
-                            <td>The night and the day are switching on the user moves. When he does some quests/activities, the daylight switches.</td>
-                        </tr>
-                    </snippet>
+                    <snippet id="solo-human-table-trigger-row"><tr>
+                        <td width="100px">Trigger</td>
+                        <td>The night and the day are switching on the user moves. When he does some quests/activities, the daylight switches.</td>
+                    </tr></snippet>
                     <tr>
-                        <snippet id="solo-benefits-row">
-                            <td width="100px">Benefits</td>
-                        </snippet>
+                        <snippet id="solo-human-table-benefits-row"><td width="100px">Benefits</td></snippet>
                         <td>
-                            <p>Human benefits for the daylight:</p>
-                            <list type="bullet"><li>Free day-exploring without constraint</li></list>
+                            <list type="bullet"><li>Free <control>day</control>-exploring without constraint.</li></list>
+                        </td>
+                    </tr>
+                    <tr>
+                        <snippet id="solo-human-table-constraints-row"><td width="100px">Constraints</td></snippet>
+                        <td>
+                            <list type="bullet"><li><control>Night</control> is hostile.</li></list>
                         </td>
                     </tr>
                 </table>
+                <snippet id="solo-human-description-paragraph">
+                    <p>Activities may have different impacts according to the time they can take. There is three groups:</p>
+                    <deflist type="medium">
+                        <def title="1. Full-day Activities">Activities taking a whole day <control>(12h~24h)</control> to being completed: long-distance travels, huge quest objectives.</def>
+                        <def title="2. Half-day Activities">Activities taking a half-day <control>(6h~12h)</control> to being completed: normal travels, normal quest objectives.</def>
+                        <def title="3. Short Activities">Activities taking a short time <control>(1h~6h)</control> to being completed: mini-games, environment interactions, short quest objectives.</def>
+                    </deflist>
+                    <p>The <control>displayed time</control> is written as in-game clock.</p>
+                    <p>Moreover, when a player is not doing an activity, the time on their world is passing as fast as real time (scale <control>1:1 - 24h/day</control>).</p>
+                </snippet>
             </tab>
+
             <tab title="Demon">
                 <table style="header-column">
-                    <include from="daylight-cycle.topic" element-id="solo-trigger-row"/>
+                    <include from="daylight-cycle.topic" element-id="solo-human-table-trigger-row"/>
                     <tr>
-                        <include from="daylight-cycle.topic" element-id="solo-benefits-row"/>
+                        <include from="daylight-cycle.topic" element-id="solo-human-table-benefits-row"/>
                         <td>
-                            <p>Being a human can result to:</p>
-                            <list type="bullet"><li>Free night-exploring without constraint</li></list>
+                            <list type="bullet"><li>Free <control>night</control>-exploring without constraint</li></list>
+                        </td>
+                    </tr>
+                    <tr>
+                        <include from="daylight-cycle.topic" element-id="solo-human-table-constraints-row"/>
+                        <td>
+                            <list type="bullet"><li><control>Day</control> is hostile.</li></list>
                         </td>
                     </tr>
                 </table>
+                <include from="daylight-cycle.topic" element-id="solo-human-description-paragraph"/>
             </tab>
         </tabs>
+
     </chapter>
 </topic>
