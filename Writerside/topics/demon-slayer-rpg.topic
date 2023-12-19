@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Demon Slayer RPG" id="demon-slayer-rpg" help-id="Demon-Slayer-RPG">
+
+    <section-starting-page>
+        <title>Demon Slayer RPG</title>
+        <description>
+            Welcome to the portal to get access to all the information you need to know about the Demon Slayer RPG ; playable onto the Discord bot Mariko.
+        </description>
+
+        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
+        <spotlight>
+            <a href="Daylight-Cycle.topic" type="library">Daylight Cycle</a>
+            <a href="Daylight-Cycle.topic" type="library">Daylight Cycle</a>
+        </spotlight>
+        
+        <primary>
+            <title>Primary section</title>
+            <a href="">First element</a>
+            <a href="">Second element</a>
+        </primary>
+        <secondary>
+            <title>Secondary section</title>
+            <a href="">First element</a>
+            <a href="">Second element</a>
+        </secondary>
+
+    </section-starting-page>
+
+</topic>

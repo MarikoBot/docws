@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/doc.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Testing features">
+      <change afterPath="$PROJECT_DIR$/.github/workflows/deploy.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/Daylight-Cycle.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/Demon-Slayer-RPG.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/webHelpMARIKO2-all.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/CroppedShadow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/images/DiscordNew.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/Admin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/Announcements.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/Crown.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/Katana.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/New.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/images/Shield.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/mariko.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/mariko.tree" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/topics/introduction.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/introduction.topic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,24 +65,28 @@
       </map>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2ZXkWAe4urnCmNsV6vHkuq2NluH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/panda/OneDrive/Documents/projects/mariko/docws",
-    "settings.editor.selected.configurable": "proofread"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/panda/OneDrive/Documents/projects/mariko/docws&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;fileTemplates&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Build Mariko (mariko)" type="StardustRunConfiguration" factoryName="save-as-zip">
       <option name="folderPath" value="$PROJECT_DIR$" />
@@ -86,4 +96,8 @@
     </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Testing features" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testing features" />
+  </component>
 </project>

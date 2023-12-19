@@ -6,4 +6,7 @@
                   start-page="introduction.topic">
 
     <toc-element topic="introduction.topic"/>
+    <toc-element topic="demon-slayer-rpg.topic">
+        <toc-element topic="Daylight-Cycle.topic"/>
+    </toc-element>
 </instance-profile>

@@ -3,9 +3,10 @@
                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
 
     <variables>
-        <color-preset>contrast</color-preset>
+        <color-preset>vivid</color-preset>
         <primary-color>iris</primary-color>
-        <header-logo>pfp1.jpg</header-logo>
+        <header-logo>DocLogo.svg</header-logo>
+        <custom-favicons>DocLogo.svg</custom-favicons>
     </variables>
     <build-profile instance="mariko">
         <variables>

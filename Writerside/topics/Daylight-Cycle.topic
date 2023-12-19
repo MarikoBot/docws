@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Daylight Cycle" id="Daylight-Cycle"
+       switcher-label="test">
+
+    <chapter id="what-is-daylight-cycle" title="What is daylight cycle?">
+        <p>
+            In <emphasis>Kimetsu no Yaiba</emphasis> universe, demons and humans cannot encounter except during the night.
+            It becomes a problem when it comes to make a game when players can chose between demon and slayer ; and when they have
+            to encounter each other.
+        </p>
+        <p>
+            So, to solve this problem, we set the daylight cycle mechanic. How it works ?
+            The daylight system decomposes itself in two versions: <control>solo</control> and <control>multiplayer</control>.
+        </p>
+    </chapter>
+
+    <chapter id="daylight-solo-version" title="Solo version of the daylight cycle">
+        <tabs>
+            <tab title="Human" instance="">
+                <table style="header-column">
+                    <snippet id="solo-trigger-row">
+                        <tr>
+                            <td width="100px">Trigger</td>
+                            <td>The night and the day are switching on the user moves. When he does some quests/activities, the daylight switches.</td>
+                        </tr>
+                    </snippet>
+                    <tr>
+                        <snippet id="solo-benefits-row">
+                            <td width="100px">Benefits</td>
+                        </snippet>
+                        <td>
+                            <p>Human benefits for the daylight:</p>
+                            <list type="bullet"><li>Free day-exploring without constraint</li></list>
+                        </td>
+                    </tr>
+                </table>
+            </tab>
+            <tab title="Demon">
+                <table style="header-column">
+                    <include from="Daylight-Cycle.topic" element-id="solo-trigger-row"/>
+                    <tr>
+                        <include from="Daylight-Cycle.topic" element-id="solo-benefits-row"/>
+                        <td>
+                            <p>Being a human can result to:</p>
+                            <list type="bullet"><li>Free night-exploring without constraint</li></list>
+                        </td>
+                    </tr>
+                </table>
+            </tab>
+        </tabs>
+    </chapter>
+</topic>
