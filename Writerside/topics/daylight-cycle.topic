@@ -13,11 +13,8 @@
             to encounter each other.
         </p>
         <p>
-<<<<<<< HEAD
             So, to solve this problem, we set the daylight cycle mechanic. How it works ?
-=======
             To solve this problem, we set the daylight cycle mechanic. How it works ?
->>>>>>> bd89d2b (Forked)
             The daylight system decomposes itself in two versions: <control>solo</control> and <control>multiplayer</control>.
         </p>
     </chapter>
