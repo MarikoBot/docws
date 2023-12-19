@@ -3,8 +3,8 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Daylight Cycle" id="Daylight-Cycle"
-       switcher-label="test">
+       title="🌓 Daylight Cycle" id="daylight-cycle"
+       switcher-label="test" help-id="Daylight-Cycle">
 
     <chapter id="what-is-daylight-cycle" title="What is daylight cycle?">
         <p>
@@ -41,9 +41,9 @@
             </tab>
             <tab title="Demon">
                 <table style="header-column">
-                    <include from="Daylight-Cycle.topic" element-id="solo-trigger-row"/>
+                    <include from="daylight-cycle.topic" element-id="solo-trigger-row"/>
                     <tr>
-                        <include from="Daylight-Cycle.topic" element-id="solo-benefits-row"/>
+                        <include from="daylight-cycle.topic" element-id="solo-benefits-row"/>
                         <td>
                             <p>Being a human can result to:</p>
                             <list type="bullet"><li>Free night-exploring without constraint</li></list>

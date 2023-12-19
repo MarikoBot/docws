@@ -12,12 +12,6 @@
                 The bot provides a whole RPG game. Dive into the verse of Koyoharu Gotouge and embody a character <b>to become the strongest slayer</b>,
                 or <b>the most devilish demon</b>.
             </def>
-            <def title="Leveling" collapsible="true" default-state="collapsed">
-                The classic leveling system. Fully customizable. When people chat in your Discord server, they earn XP.
-            </def>
-            <def title="✨ Day Streaking" collapsible="true" default-state="collapsed">
-                If you ever wanted to retain your inactive members, try this new idea straight born at our developers' cottage.
-            </def>
         </deflist>
     </chapter>
     <chapter title="What is a Discord bot ?" id="what-is-a-discord-bot">

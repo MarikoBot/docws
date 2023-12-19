@@ -8,10 +8,20 @@
         <header-logo>DocLogo.svg</header-logo>
         <custom-favicons>DocLogo.svg</custom-favicons>
     </variables>
+
     <build-profile instance="mariko">
         <variables>
             <noindex-content>false</noindex-content>
         </variables>
     </build-profile>
+
+    <footer>
+        <link href="https://marikobot.github.io/docws/soon.html">Discord Server</link>
+        <link href="https://marikobot.github.io/docws/soon.html">Play Mariko</link>
+        <link href="https://marikobot.github.io/docws/soon.html">Terms of Service</link>
+        <link href="https://marikobot.github.io/docws/soon.html">Privacy Policy</link>
+
+        <copyright>Mariko 2023</copyright>
+    </footer>
 
 </buildprofiles>

@@ -10,22 +10,19 @@
         <description>
             Welcome to the portal to get access to all the information you need to know about the Demon Slayer RPG ; playable onto the Discord bot Mariko.
         </description>
-
-        <!--    Add up to 2 topics that you want to promote. Use the "type" attribute to select an icon.    -->
         <spotlight>
-            <a href="Daylight-Cycle.topic" type="library">Daylight Cycle</a>
-            <a href="Daylight-Cycle.topic" type="library">Daylight Cycle</a>
+            <a href="soon.topic" type="start">Soon.</a>
+            <a href="soon.topic" type="start">Soon.</a>
         </spotlight>
-        
         <primary>
-            <title>Primary section</title>
-            <a href="">First element</a>
-            <a href="">Second element</a>
+            <title>Game Content</title>
+            <a href="soon.topic">Soon.</a>
+            <a href="soon.topic">Soon.</a>
         </primary>
         <secondary>
-            <title>Secondary section</title>
-            <a href="">First element</a>
-            <a href="">Second element</a>
+            <title>Game Mechanics</title>
+            <a href="daylight-cycle.topic">🌓 Daily Cycle</a>
+            <a href="soon.topic">Soon.</a>
         </secondary>
 
     </section-starting-page>

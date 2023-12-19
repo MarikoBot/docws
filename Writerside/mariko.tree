@@ -7,6 +7,7 @@
 
     <toc-element topic="introduction.topic"/>
     <toc-element topic="demon-slayer-rpg.topic">
-        <toc-element topic="Daylight-Cycle.topic"/>
+        <toc-element topic="daylight-cycle.topic"/>
     </toc-element>
+    <toc-element topic="soon.topic"/>
 </instance-profile>
