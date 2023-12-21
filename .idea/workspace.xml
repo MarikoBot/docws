@@ -4,9 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Publishing the first version of the daylight-cycle.topic">
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Updated the footer.">
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/Open-World-Content.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/battles.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/equipment.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/idle-content.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/map-content.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/map-mechanics.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/mini-games.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/open-world-mechanics.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/prestige-and-knowledge.topic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writerside/topics/quests.topic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/cfg/buildprofiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/mariko.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/mariko.tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/daylight-cycle.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/daylight-cycle.topic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/demon-slayer-rpg.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/demon-slayer-rpg.topic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +120,7 @@
       <workItem from="1703154128467" duration="380000" />
       <workItem from="1703154519983" duration="223000" />
       <workItem from="1703154754968" duration="9964000" />
-      <workItem from="1703178734560" duration="179000" />
+      <workItem from="1703178734560" duration="2476000" />
     </task>
     <task id="LOCAL-00001" summary="Publishing the first version of the daylight-cycle.topic">
       <option name="closed" value="true" />
@@ -118,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703176339126</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Updated the footer.">
+      <option name="closed" value="true" />
+      <created>1703178943967</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703178943967</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -145,6 +165,7 @@
     <MESSAGE value="Updated the buildprofiles.xml variables" />
     <MESSAGE value="Forked" />
     <MESSAGE value="Publishing the first version of the daylight-cycle.topic" />
-    <option name="LAST_COMMIT_MESSAGE" value="Publishing the first version of the daylight-cycle.topic" />
+    <MESSAGE value="Updated the footer." />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the footer." />
   </component>
 </project>
