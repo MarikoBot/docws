@@ -4,19 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Built the whole structure.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/battles.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/battles.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/daylight-cycle.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/daylight-cycle.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/demon-slayer-rpg.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/demon-slayer-rpg.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/equipment.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/equipment.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/idle-content.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/idle-content.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/map-content.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/map-content.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/map-mechanics.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/map-mechanics.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/mini-games.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/mini-games.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/prestige-and-knowledge.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/prestige-and-knowledge.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/quests.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/quests.topic" afterDir="false" />
-    </list>
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Pushing the zip" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -75,29 +63,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/panda/OneDrive/Documents/projects/mariko/docws&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Writerside.Build Mariko (mariko).executor": "Run",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/panda/OneDrive/Documents/projects/mariko/docws",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;stardust.markdown.MarkdownSplitEditorSuppressor:keyList&quot;: [
+  "keyToStringList": {
+    "stardust.markdown.MarkdownSplitEditorSuppressor:keyList": [
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Build Mariko (mariko)" type="StardustRunConfiguration" factoryName="save-as-zip">
       <option name="folderPath" value="$PROJECT_DIR$" />
@@ -117,7 +106,7 @@
       <workItem from="1703154128467" duration="380000" />
       <workItem from="1703154519983" duration="223000" />
       <workItem from="1703154754968" duration="9964000" />
-      <workItem from="1703178734560" duration="3833000" />
+      <workItem from="1703178734560" duration="4131000" />
     </task>
     <task id="LOCAL-00001" summary="Publishing the first version of the daylight-cycle.topic">
       <option name="closed" value="true" />
@@ -143,7 +132,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703181329304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Improved the whole structure.">
+      <option name="closed" value="true" />
+      <created>1703186429576</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703186429576</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Pushing the zip">
+      <option name="closed" value="true" />
+      <created>1703186452363</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703186452363</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +177,8 @@
     <MESSAGE value="Publishing the first version of the daylight-cycle.topic" />
     <MESSAGE value="Updated the footer." />
     <MESSAGE value="Built the whole structure." />
-    <option name="LAST_COMMIT_MESSAGE" value="Built the whole structure." />
+    <MESSAGE value="Improved the whole structure." />
+    <MESSAGE value="Pushing the zip" />
+    <option name="LAST_COMMIT_MESSAGE" value="Pushing the zip" />
   </component>
 </project>
