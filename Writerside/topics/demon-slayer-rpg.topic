@@ -8,21 +8,26 @@
     <section-starting-page>
         <title>Demon Slayer RPG</title>
         <description>
-            Welcome to the portal to get access to all the information you need to know about the Demon Slayer RPG ; playable onto the Discord bot Mariko.
+            Welcome to the Demon Slayer RPG.
         </description>
         <spotlight>
-            <a href="soon.topic" type="start">Soon.</a>
-            <a href="soon.topic" type="start">Soon.</a>
+            <a href="soon.topic" type="creative">Open World Content</a>
+            <a href="open-world-mechanics.topic" type="settings">Open World Mechanics</a>
         </spotlight>
         <primary>
-            <title>Game Content</title>
-            <a href="soon.topic">Soon.</a>
-            <a href="soon.topic">Soon.</a>
+            <title>Open World Content</title>
+            <a href="equipment.topic"/>
+            <a href="idle-content.topic"/>
+            <a href="map-content.topic"/>
+            <a href="mini-games.topic"/>
+            <a href="quests.topic"/>
         </primary>
         <secondary>
-            <title>Game Mechanics</title>
-            <a href="daylight-cycle.topic">🌓 Daily Cycle</a>
-            <a href="soon.topic">Soon.</a>
+            <title>Open World Mechanics</title>
+            <a href="daylight-cycle.topic"/>
+            <a href="battles.topic"/>
+            <a href="map-mechanics.topic"/>
+            <a href="prestige-and-knowledge.topic"/>
         </secondary>
 
     </section-starting-page>

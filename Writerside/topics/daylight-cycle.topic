@@ -6,6 +6,10 @@
        title="🌓 Daylight Cycle" id="daylight-cycle"
        switcher-label="test" help-id="Daylight-Cycle">
 
+    <chapter id="daylight-cycle-introduction" title="Introduction">
+        This is the daylight cycle mechanic page.
+    </chapter>
+
     <chapter id="what-is-daylight-cycle" title="What is daylight cycle?">
         <p>
             In <emphasis>Kimetsu no Yaiba</emphasis> universe, demons and humans cannot encounter except during the night.
@@ -22,7 +26,7 @@
     <chapter id="daylight-solo-version" title="Solo version of the daylight cycle">
 
         <tabs>
-            <tab title="Human" instance="">
+            <tab title="Human">
                 <table style="header-column">
                     <snippet id="solo-human-table-trigger-row"><tr>
                         <td width="100px">Trigger</td>
@@ -119,20 +123,8 @@
     </chapter>
 
     <chapter id="daylight-multiplayer-version" title="Multiplayer version of the daylight cycle">
-
-        <tabs>
-            <tab title="Human" instance="">
-                <snippet id="multiplayer-human-description-paragraph">
-                    <p>The multiplayer map has its own daylight cycle system. This system is similar to the real-life one, but at a faster scale.</p>
-                    <p>The scale is <control>1:3</control>. In-game, the time passes <control>3 times faster</control>.</p>
-                    <p>Since demons and humans are mixed in the map, the benefits of each race are the same as in the <control><a href="#daylight-solo-version">Solo version</a></control>.</p>
-                </snippet>
-            </tab>
-
-            <tab title="Demon">
-                <include from="daylight-cycle.topic" element-id="multiplayer-human-description-paragraph"/>
-            </tab>
-        </tabs>
-
+        <p>The multiplayer map has its own daylight cycle system. This system is similar to the real-life one, but at a faster scale.</p>
+        <p>The scale is <control>1:3</control>. In-game, the time passes <control>3 times faster</control>.</p>
+        <p>Since demons and humans are mixed in the map, the benefits of each race are the same as in the <control><a href="#daylight-solo-version">Solo version</a></control>.</p>
     </chapter>
 </topic>

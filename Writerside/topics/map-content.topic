@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="🗺️ Map Content" id="map-content">
+
+    <chapter id="map-content-introduction" title="Introduction">
+        This is the map content page. <control>Paired with the Map Mechanics page.</control>
+    </chapter>
+</topic>
