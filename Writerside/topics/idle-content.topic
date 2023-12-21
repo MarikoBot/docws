@@ -5,5 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="🪺 Idle Content" id="idle-content">
 
-    <p>Start typing here...</p>
+    <chapter id="idle-content-introduction" title="Introduction">
+        This is the idle content page.
+    </chapter>
 </topic>

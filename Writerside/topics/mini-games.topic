@@ -5,5 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="🎲 Mini-Games" id="mini-games">
 
-    <p>Start typing here...</p>
+    <chapter id="mini-games-introduction" title="Introduction">
+        This is the mini-games content page.
+    </chapter>
 </topic>

@@ -16,11 +16,11 @@
         </spotlight>
         <primary>
             <title>Open World Content</title>
-            <a href="soon.topic">🥷 Equipment</a>
-            <a href="soon.topic">🪺 Idle Content</a>
-            <a href="soon.topic">🗺️ Map Content</a>
-            <a href="soon.topic">🎲 Mini-Games</a>
-            <a href="soon.topic">📜 Quests</a>
+            <a href="equipment.topic"/>
+            <a href="idle-content.topic"/>
+            <a href="map-content.topic"/>
+            <a href="mini-games.topic"/>
+            <a href="quests.topic"/>
         </primary>
         <secondary>
             <title>Open World Mechanics</title>

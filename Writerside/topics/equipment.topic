@@ -5,5 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="🥷 Equipment" id="equipment">
 
-    <p>Start typing here...</p>
+    <chapter id="equipment-introduction" title="Introduction">
+        This is the equipment content page.
+    </chapter>
 </topic>
