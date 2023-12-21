@@ -9,7 +9,7 @@
     <chapter id="what-is-daylight-cycle" title="What is daylight cycle?">
         <p>
             In <emphasis>Kimetsu no Yaiba</emphasis> universe, demons and humans cannot encounter except during the night.
-            It becomes a problem when it comes to make a game when players can chose between demon and slayer ; and when they have
+            It becomes a problem when it comes to make a game where players can choose between demon and slayer ; and when they have
             to encounter each other.
         </p>
         <p>
@@ -26,50 +26,111 @@
                 <table style="header-column">
                     <snippet id="solo-human-table-trigger-row"><tr>
                         <td width="100px">Trigger</td>
-                        <td>The night and the day are switching on the user moves. When he does some quests/activities, the daylight switches.</td>
+                        <td>
+                            <control>The <include from="references.topic" element-id="day-format"/>
+                            and the <include from="references.topic" element-id="night-format"/>
+                            are switching based on the user activities.</control> When he does some quests/activities, the daylight switches.
+                        </td>
                     </tr></snippet>
+
+                    <tr>
+                        <snippet id="solo-human-table-stronger-row"><td width="100px">Stronger</td></snippet>
+                        <td>
+                            <p>
+                                The humans are <control>stronger</control> <format style="superscript">1</format> during the
+                                <include from="references.topic" element-id="day-format" />
+                                . The night can be hostile for them.
+                            </p>
+                        </td>
+                    </tr>
+
                     <tr>
                         <snippet id="solo-human-table-benefits-row"><td width="100px">Benefits</td></snippet>
                         <td>
-                            <list type="bullet"><li>Free <control>day</control>-exploring without constraint.</li></list>
+                            <list type="bullet">
+                                <li>Free <include from="references.topic" element-id="day-format" />-exploring at the outside without constraint.</li>
+                                <li>Quests objectives are mostly during the <include from="references.topic" element-id="day-format" /> (excepted demon hunting missions).</li>
+                            </list>
                         </td>
                     </tr>
+
                     <tr>
                         <snippet id="solo-human-table-constraints-row"><td width="100px">Constraints</td></snippet>
                         <td>
-                            <list type="bullet"><li><control>Night</control> is hostile.</li></list>
+                            <list type="bullet">
+                                <li>During the <include from="references.topic" element-id="day-format" />, dark places can be dangerous.</li>
+                                <li>During the <include from="references.topic" element-id="night-format" />, they should stay safe if they are not in mission.</li>
+                            </list>
                         </td>
                     </tr>
                 </table>
-                <snippet id="solo-human-description-paragraph">
-                    <p>Activities may have different impacts according to the time they can take. There is three groups:</p>
-                    <deflist type="medium">
-                        <def title="1. Full-day Activities">Activities taking a whole day <control>(12h~24h)</control> to being completed: long-distance travels, huge quest objectives.</def>
-                        <def title="2. Half-day Activities">Activities taking a half-day <control>(6h~12h)</control> to being completed: normal travels, normal quest objectives.</def>
-                        <def title="3. Short Activities">Activities taking a short time <control>(1h~6h)</control> to being completed: mini-games, environment interactions, short quest objectives.</def>
-                    </deflist>
-                    <p>The <control>displayed time</control> is written as in-game clock.</p>
-                    <p>Moreover, when a player is not doing an activity, the time on their world is passing as fast as real time (scale <control>1:1 - 24h/day</control>).</p>
-                </snippet>
+
             </tab>
 
             <tab title="Demon">
                 <table style="header-column">
                     <include from="daylight-cycle.topic" element-id="solo-human-table-trigger-row"/>
+
+                    <tr>
+                        <include from="daylight-cycle.topic" element-id="solo-human-table-stronger-row"/>
+                        <td>
+                            <p>
+                                The demons are <control>stronger</control> <format style="superscript">1</format> during the
+                                <include from="references.topic" element-id="night-format" />
+                                . The day is hostile for them.
+                            </p>
+                        </td>
+                    </tr>
+
                     <tr>
                         <include from="daylight-cycle.topic" element-id="solo-human-table-benefits-row"/>
                         <td>
-                            <list type="bullet"><li>Free <control>night</control>-exploring without constraint</li></list>
+                            <list type="bullet">
+                                <li>Free <include from="references.topic" element-id="night-format" />-exploring at the outside without constraint.</li>
+                                <li>Quests objectives are mostly during the <include from="references.topic" element-id="night-format" /> (excepted human hunting missions).</li>
+                            </list>
                         </td>
                     </tr>
+
                     <tr>
                         <include from="daylight-cycle.topic" element-id="solo-human-table-constraints-row"/>
                         <td>
-                            <list type="bullet"><li><control>Day</control> is hostile.</li></list>
+                            <list type="bullet">
+                                <li>During the <include from="references.topic" element-id="day-format" />, sun exposed places are fatal. Moreover, they should stay safe if they are not in mission.</li>
+                            </list>
                         </td>
                     </tr>
+
                 </table>
-                <include from="daylight-cycle.topic" element-id="solo-human-description-paragraph"/>
+            </tab>
+        </tabs>
+
+
+        <p><control>1</control>: by « <control>stronger</control> » we mean more comfortable while exploring, more advantaged during battles.</p>
+        <p>When read above, activities are the way to switch the cycle. But, how do they work? Activities may have different impacts according to the time they can take. There is three groups:</p>
+        <deflist type="medium">
+            <def title="1. Full-day Activities">Activities taking a whole day <control>(12h~24h)</control> to being completed: long-distance travels, huge quest objectives.</def>
+            <def title="2. Half-day Activities">Activities taking a half-day <control>(6h~12h)</control> to being completed: normal travels, normal quest objectives.</def>
+            <def title="3. Short Activities">Activities taking a short time <control>(1h~6h)</control> to being completed: mini-games, environment interactions, short quest objectives.</def>
+        </deflist>
+        <p>The <control>displayed time</control> is written as in-game clock.</p>
+        <p>Moreover, when a player is not doing an activity, the time on their world is passing as fast as real time (scale <control>1:1 - 24h/day</control>).</p>
+
+    </chapter>
+
+    <chapter id="daylight-multiplayer-version" title="Multiplayer version of the daylight cycle">
+
+        <tabs>
+            <tab title="Human" instance="">
+                <snippet id="multiplayer-human-description-paragraph">
+                    <p>The multiplayer map has its own daylight cycle system. This system is similar to the real-life one, but at a faster scale.</p>
+                    <p>The scale is <control>1:3</control>. In-game, the time passes <control>3 times faster</control>.</p>
+                    <p>Since demons and humans are mixed in the map, the benefits of each race are the same as in the <control><a href="#daylight-solo-version">Solo version</a></control>.</p>
+                </snippet>
+            </tab>
+
+            <tab title="Demon">
+                <include from="daylight-cycle.topic" element-id="multiplayer-human-description-paragraph"/>
             </tab>
         </tabs>
 
