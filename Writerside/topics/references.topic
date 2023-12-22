@@ -13,4 +13,8 @@
     <snippet id="night-format">
         <format style="bold" color="CornflowerBlue">night</format>
     </snippet>
+
+    <snippet id="def-stronger">
+        <tooltip term="rpg-stronger">stronger</tooltip>
+    </snippet>
 </topic>

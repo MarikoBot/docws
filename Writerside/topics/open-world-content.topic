@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="Open World Content" id="Open-World-Content">
+       title="Open World Content" id="open-world-content" help-id="Open-World-Content">
 
     <p>Start typing here...</p>
 </topic>

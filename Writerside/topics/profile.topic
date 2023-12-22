@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="👘 Profile" id="profile">
+
+    <chapter id="profile-introduction" title="Introduction">
+        This is the profile mechanic page.
+    </chapter>
+
+    <chapter id="what-is-profile" title="What is the profile?">
+        <p>
+            The profile is the class that includes all the player data useful for the RPG game.
+            It includes all the statistics you may encounter in the major part of the RPG games:
+        </p>
+        <list type="bullet">
+            <li>
+                Skills: strength, defense, etc...
+                Class: tank, healer...
+            </li>
+        </list>
+        <p>
+            But for Mariko, it is different. Below, you will see the full list of each attribute.
+        </p>
+    </chapter>
+</topic>
