@@ -8,4 +8,15 @@
     <chapter id="battles-introduction" title="Introduction">
         This is the battles mechanic page.
     </chapter>
+
+    <chapter id="what-are-battles" title="What are battles?">
+        <p>
+            Battles are the most complicated mechanic to understand and to play. First, they divide into 3 categories.
+        </p>
+        <list type="decimal">
+            <li>Online battles</li>
+            <li>Offline battles</li>
+            <li>Special battles</li>
+        </list>
+    </chapter>
 </topic>

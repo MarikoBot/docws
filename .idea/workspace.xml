@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Pushing the IntelliJ profile">
-      <change afterPath="$PROJECT_DIR$/Writerside/topics/profile.topic" afterDir="false" />
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment=".idea project files">
+      <change afterPath="$PROJECT_DIR$/Writerside/cfg/glossary.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/mariko.tree" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/mariko.tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/Open-World-Content.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/open-world-content.topic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/topics/battles.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/battles.topic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/daylight-cycle.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/daylight-cycle.topic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/introduction.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/introduction.topic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/references.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/references.topic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +117,7 @@
       <workItem from="1703154754968" duration="9964000" />
       <workItem from="1703178734560" duration="4807000" />
       <workItem from="1703242052345" duration="1888000" />
-      <workItem from="1703250058229" duration="3386000" />
+      <workItem from="1703250058229" duration="6916000" />
     </task>
     <task id="LOCAL-00001" summary="Publishing the first version of the daylight-cycle.topic">
       <option name="closed" value="true" />
@@ -163,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703186531644</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added the profile page">
+      <option name="closed" value="true" />
+      <created>1703257397553</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703257397553</updated>
+    </task>
+    <task id="LOCAL-00008" summary=".idea project files">
+      <option name="closed" value="true" />
+      <created>1703257412049</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703257412049</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +215,8 @@
     <MESSAGE value="Improved the whole structure." />
     <MESSAGE value="Pushing the zip" />
     <MESSAGE value="Pushing the IntelliJ profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Pushing the IntelliJ profile" />
+    <MESSAGE value="Added the profile page" />
+    <MESSAGE value=".idea project files" />
+    <option name="LAST_COMMIT_MESSAGE" value=".idea project files" />
   </component>
 </project>

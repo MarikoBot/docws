@@ -7,7 +7,7 @@
 
     <toc-element topic="introduction.topic"/>
     <toc-element topic="demon-slayer-rpg.topic">
-        <toc-element topic="Open-World-Content.topic">
+        <toc-element topic="open-world-content.topic">
             <toc-element topic="equipment.topic"/>
             <toc-element topic="idle-content.topic"/>
             <toc-element topic="map-content.topic"/>
