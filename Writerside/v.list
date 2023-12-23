@@ -1,0 +1,6 @@
+<vars>
+    <var name="rpg-skill-strength"
+         value="The pure physical strength the entity has."
+         type="string"
+    />
+</vars>

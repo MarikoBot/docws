@@ -24,4 +24,13 @@
             But for Mariko, it is different. Below, you will see the full list of each attribute.
         </p>
     </chapter>
+
+    <chapter id="skills-list" title="Skills list">
+        <table style="header-column">
+            <tr>
+                <td><include from="references.topic" element-id="tool-rpg-skill-strength"/></td>
+                <td><include from="references.topic" element-id="def-rpg-skill-strength"/></td>
+            </tr>
+        </table>
+    </chapter>
 </topic>
