@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="New built with a demo of STRENGTH">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/cfg/glossary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/cfg/glossary.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/battles.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/battles.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/daylight-cycle.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/daylight-cycle.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/demon-slayer-rpg.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/demon-slayer-rpg.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/equipment.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/equipment.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/idle-content.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/idle-content.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/introduction.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/introduction.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/map-content.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/map-content.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/map-mechanics.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/map-mechanics.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/mini-games.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/mini-games.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/prestige-and-knowledge.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/prestige-and-knowledge.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/profile.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/profile.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/quests.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/quests.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/references.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/references.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/v.list" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/v.list" afterDir="false" />
-    </list>
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="A lot of changes, I have seriously la flemme de tout marquer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +110,7 @@
       <workItem from="1703242052345" duration="1888000" />
       <workItem from="1703250058229" duration="11004000" />
       <workItem from="1703352497136" duration="2582000" />
-      <workItem from="1703413909609" duration="14580000" />
+      <workItem from="1703413909609" duration="14879000" />
     </task>
     <task id="LOCAL-00001" summary="Publishing the first version of the daylight-cycle.topic">
       <option name="closed" value="true" />
@@ -249,7 +232,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703355111157</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="A lot of changes, I have seriously la flemme de tout marquer">
+      <option name="closed" value="true" />
+      <created>1703437186575</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1703437186575</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +278,7 @@
     <MESSAGE value="Profile topic initialized" />
     <MESSAGE value="Created the skills variable handling" />
     <MESSAGE value="New built with a demo of STRENGTH" />
-    <option name="LAST_COMMIT_MESSAGE" value="New built with a demo of STRENGTH" />
+    <MESSAGE value="A lot of changes, I have seriously la flemme de tout marquer" />
+    <option name="LAST_COMMIT_MESSAGE" value="A lot of changes, I have seriously la flemme de tout marquer" />
   </component>
 </project>
