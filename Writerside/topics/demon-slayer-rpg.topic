@@ -11,8 +11,8 @@
             Welcome to the Demon Slayer RPG.
         </description>
         <spotlight>
-            <a href="open-world-content.topic" type="creative"><p>Open World Content</p></a>
-            <a href="open-world-mechanics.topic" type="settings"><p>Open World Mechanics</p></a>
+            <a href="open-world-content.topic" type="creative">Open World Content</a>
+            <a href="open-world-mechanics.topic" type="settings">Open World Mechanics</a>
         </spotlight>
         <primary>
             <title>Open World Content</title>
