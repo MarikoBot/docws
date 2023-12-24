@@ -3,4 +3,32 @@
          value="The pure physical strength the entity has."
          type="string"
     />
+    <var name="rpg-skill-durability"
+         value="The ability to stay in a rough situation for a while (e.g.battles)."
+         type="string"
+    />
+    <var name="rpg-skill-endurance"
+         value="The amount of energy the player can use before being tired. Same concept as in real life."
+         type="string"
+    />
+    <var name="rpg-skill-speed"
+         value="Describes how fast the player can move and dash."
+         type="string"
+    />
+    <var name="rpg-skill-collection"
+         value="Depicts the capacity to collect damages and to resist against a hit."
+         type="string"
+    />
+    <var name="rpg-skill-recovery"
+         value="The ability to recover and fix injuries. During battles, it allows humans to fix little injuries."
+         type="string"
+    />
+    <var name="rpg-skill-synergy"
+         value="The ability to understand and succeed combinations of techniques/moves during a battle."
+         type="string"
+    />
+    <var name="rpg-skill-mental"
+         value="The mental resistance of the player. A low mental will redirect to a faster physical breaking. It is also the 'aura' the player has."
+         type="string"
+    />
 </vars>

@@ -5,7 +5,5 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="🧶 Prestige &amp; Knowledge" id="prestige-and-knowledge">
 
-    <chapter id="prestige-and-knowledge-introduction" title="Introduction">
-        This is the prestige and knowledge mechanic page.
-    </chapter>
+    <p>This is the prestige and knowledge mechanic page.</p>
 </topic>

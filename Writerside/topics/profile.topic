@@ -5,32 +5,224 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="👘 Profile" id="profile">
 
-    <chapter id="profile-introduction" title="Introduction">
-        This is the profile mechanic page.
-    </chapter>
+    <p>This is the profile mechanic page.</p>
 
     <chapter id="what-is-profile" title="What is the profile?">
         <p>
             The profile is the class that includes all the player data useful for the RPG game.
             It includes all the statistics you may encounter in the major part of the RPG games:
         </p>
+
         <list type="bullet">
             <li>
-                Skills: strength, defense, etc...
-                Class: tank, healer...
+                <p>
+                    Skills: strength, defense, etc...
+                </p>
+            </li>
+            <li>
+                <p>
+                    Class: tank, healer...
+                </p>
+            </li>
+            <li>
+                <p>
+                    Leveling
+                </p>
             </li>
         </list>
+
         <p>
             But for Mariko, it is different. Below, you will see the full list of each attribute.
         </p>
     </chapter>
 
+    <chapter id="leveling" title="Leveling">
+        <p>
+            The leveling system in the RPG is an illustrator of how much the player played.
+            Each level has its own rewards.
+            Moreover, passing a level requires more experience than passing the previous one.
+            Each level has its own amount of experience, and more you progress, more experience you need.
+        </p>
+
+        <deflist>
+            <def title="How is the level calculated?">
+                <p>
+                    For each formula, <code>x</code> designs the user level,
+                    <code>y<format style="subscript">x</format></code> the required experience amount for the level
+                    <code>x+1</code> and <code>z</code> the total player experience.
+                </p>
+                <tabs>
+                    <tab title="Per-level formula">
+                        <tip>
+                            <p>
+                                There is the mathematics formula to understand how the required experience is
+                                calculated. This formula works when you have the user level calculated.
+                            </p>
+                            <code-block lang="tex">
+                                \begin{equation}
+                                L(x) = 150 \times \left\lfloor \frac{x}{5} \right\rfloor + 50x
+                                \end{equation}
+                            </code-block>
+                            <p>Then, we can write:</p>
+                            <code-block lang="tex">
+                                \begin{equation}
+                                y_{x} = L(x)
+                                \end{equation}
+                            </code-block>
+                        </tip>
+                    </tab>
+                    <tab title="Global experience formula">
+                        <tip>
+                            <p>
+                                There is the mathematics formula to understand how the total experience is calculated.
+                                We simply reuse the <code>L</code> function we defined on the left tab.
+                            </p>
+                            <code-block lang="tex">
+                                \begin{equation}
+                                z = \sum_{n=1}^{x}L(n)
+                                \end{equation}
+                            </code-block>
+                        </tip>
+                        <tip>
+                            <p>
+                                Sadly, it is not possible to mathematically write the formula to find <code>x</code>
+                                based on the value of <code>z</code>.
+                                But, for the pleasure of the most curious, there is the Python program that iterates a loop
+                                to calculate <code>x</code>.
+                            </p>
+                            <code-block lang="python">
+                                import math
+
+                                x: int = 1 # The base player level
+                                # We do not start it at 0 because the player is not level 0
+                                # And it will add one more useless iteration
+                                z: int = 1000 # for example, let's pretend the player has 1000 experience points
+
+                                def L(target_x: int) -> int:
+                                """
+                                Our mathematics L function.
+                                """
+                                return 150 * math.floor(target_x/5) + 50 * target_x
+
+                                def z_calculator(target_x: int) -> int:
+                                """
+                                Our expression with the sum.
+                                """
+                                return sum(L(n) for n in range(1, target_x))
+
+                                # Main loop
+                                while z >= 0:
+                                x += 1
+                                z -= z_calculator(x)
+
+                                # Display the value of x
+                                print(f"x value: {x}")
+                            </code-block>
+                        </tip>
+                    </tab>
+                </tabs>
+            </def>
+            <def title="And humanly readable?">
+                <p>
+                    If you want to understand the formula of 'how many experience do I need for my next level?', just
+                    remember that it is:
+                </p>
+                <p>
+                    <code>
+                        <format color="Cyan" style="bold">next_lvl_req</format> = <format color="GreenYellow">150</format>
+                        * <format color="DarkGray" style="bold">integer_of</format>(<format color="OrangeRed">x</format> /
+                        <format color="GreenYellow">5</format>)
+                        + <format color="GreenYellow">150</format><format color="OrangeRed">x</format>
+                    </code>
+                </p>
+                <p>Here, <code>x</code> is our current level.</p>
+            </def>
+        </deflist>
+    </chapter>
+
     <chapter id="skills-list" title="Skills list">
+        <p>
+            Skills determine how strong a player is. More their skills are upgraded, more redoutable the player becomes.
+        </p>
+
         <table style="header-column">
             <tr>
                 <td><include from="references.topic" element-id="tool-rpg-skill-strength"/></td>
                 <td><include from="references.topic" element-id="def-rpg-skill-strength"/></td>
             </tr>
+            <tr>
+                <td><include from="references.topic" element-id="tool-rpg-skill-durability"/></td>
+                <td><include from="references.topic" element-id="def-rpg-skill-durability"/></td>
+            </tr>
+            <tr>
+                <td><include from="references.topic" element-id="tool-rpg-skill-endurance"/></td>
+                <td><include from="references.topic" element-id="def-rpg-skill-endurance"/></td>
+            </tr>
+            <tr>
+                <td><include from="references.topic" element-id="tool-rpg-skill-speed"/></td>
+                <td><include from="references.topic" element-id="def-rpg-skill-speed"/></td>
+            </tr>
+            <tr>
+                <td><include from="references.topic" element-id="tool-rpg-skill-collection"/></td>
+                <td><include from="references.topic" element-id="def-rpg-skill-collection"/></td>
+            </tr>
+            <tr>
+                <td><include from="references.topic" element-id="tool-rpg-skill-recovery"/></td>
+                <td><include from="references.topic" element-id="def-rpg-skill-recovery"/></td>
+            </tr>
+            <tr>
+                <td><include from="references.topic" element-id="tool-rpg-skill-synergy"/></td>
+                <td><include from="references.topic" element-id="def-rpg-skill-synergy"/></td>
+            </tr>
+            <tr>
+                <td><include from="references.topic" element-id="tool-rpg-skill-mental"/></td>
+                <td><include from="references.topic" element-id="def-rpg-skill-mental"/></td>
+            </tr>
         </table>
+
+        <p>
+            Each skill has a close relation with some other skills during situations.
+            For example, during battles, mental affects the "physical skills" group: strength, collection, speed.
+            The player needs to upgrade all their skills synchronously to avoid getting stuck or being banged.
+        </p>
+    </chapter>
+
+    <chapter id="skills-upgrades" title="Skills upgrades">
+        <p>
+            You are probably wondering how the player upgrades/increases their skills level.
+            There are three ways to do it: <control>competing battles</control>, <control>training</control> and
+            <control>leveling up.</control>
+        </p>
+        
+        <deflist type="full">
+            <def title="Competing battles">
+                <p>
+                    Battling makes you increase your skills.
+                    When a battle ends, the result determines the amount of skills you get.
+                    If you lose, the skills augmentation will be divided by 4 for the battle (e.g. you win 25 mental
+                    points instead of 100).
+                </p>
+            </def>
+            <def title="Training">
+                <p>
+                    Basically, if you want to progress and enhance a skill, the most logical way to do it is still
+                    training.
+                    Training are composed of mini-games directly with Discord components (buttons).
+                    Better your score will be, more enhancement you get.
+                </p>
+                <note>
+                    <p>
+                        « Obanai OGs » remember how difficult were the mini-games.
+                        We reassure you: it will not be based on internet network anymore.
+                    </p>
+                </note>
+            </def>
+            <def title="Leveling up">
+                <p>
+                    When you level up, your skills' base increases proportionally with your current level.
+                    The increase is not big, but it makes the difference on the long term.
+                </p>
+            </def>
+        </deflist>
     </chapter>
 </topic>
