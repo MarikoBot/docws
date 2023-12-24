@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="A lot of changes, I have seriously la flemme de tout marquer" />
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Built">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/demon-slayer-rpg.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/demon-slayer-rpg.topic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/profile.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/profile.topic" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,6 +115,8 @@
       <workItem from="1703250058229" duration="11004000" />
       <workItem from="1703352497136" duration="2582000" />
       <workItem from="1703413909609" duration="14879000" />
+      <workItem from="1703438044070" duration="66000" />
+      <workItem from="1703438917061" duration="108000" />
     </task>
     <task id="LOCAL-00001" summary="Publishing the first version of the daylight-cycle.topic">
       <option name="closed" value="true" />
@@ -240,7 +246,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703437186575</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Built">
+      <option name="closed" value="true" />
+      <created>1703438065604</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1703438065604</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -279,6 +293,7 @@
     <MESSAGE value="Created the skills variable handling" />
     <MESSAGE value="New built with a demo of STRENGTH" />
     <MESSAGE value="A lot of changes, I have seriously la flemme de tout marquer" />
-    <option name="LAST_COMMIT_MESSAGE" value="A lot of changes, I have seriously la flemme de tout marquer" />
+    <MESSAGE value="Built" />
+    <option name="LAST_COMMIT_MESSAGE" value="Built" />
   </component>
 </project>

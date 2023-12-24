@@ -48,7 +48,7 @@
             <def title="How is the level calculated?">
                 <p>
                     For each formula, <code>x</code> designs the user level,
-                    <code>y<format style="subscript">x</format></code> the required experience amount for the level
+                    <code>y_x</code> the required experience amount for the level
                     <code>x+1</code> and <code>z</code> the total player experience.
                 </p>
                 <tabs>
@@ -129,10 +129,7 @@
                 </p>
                 <p>
                     <code>
-                        <format color="Cyan" style="bold">next_lvl_req</format> = <format color="GreenYellow">150</format>
-                        * <format color="DarkGray" style="bold">integer_of</format>(<format color="OrangeRed">x</format> /
-                        <format color="GreenYellow">5</format>)
-                        + <format color="GreenYellow">150</format><format color="OrangeRed">x</format>
+                        next_lvl_req = 150 * integer_of(x / 5) + 150x
                     </code>
                 </p>
                 <p>Here, <code>x</code> is our current level.</p>
