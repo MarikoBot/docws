@@ -9,17 +9,22 @@
         <p>
             Mariko is a <a href="#what-is-a-discord-bot">Discord bot</a> that provides powerful and multipurpose tools.
         </p>
+
         <deflist collapsible="true">
             <def title="鬼滅の刃: Demon Slayer RPG" collapsible="true" default-state="expanded">
-                The bot provides a whole RPG game. Dive into the verse of Koyoharu Gotouge and embody a character
-                <b>to become the strongest slayer</b>, or <b>the most devilish demon</b>.
+                <p>
+                    The bot provides a whole RPG game. Dive into the verse of Koyoharu Gotouge and embody a character
+                    <b>to become the strongest slayer</b>, or <b>the most devilish demon</b>.
+                </p>
             </def>
         </deflist>
     </chapter>
+
     <chapter title="What is a Discord bot ?" id="what-is-a-discord-bot">
         <p>
             It goes from moderation and music, to administration, utils and a full Demon Slayer role-playing game.
         </p>
+
         <p>
             Discord bots can contain a lot of original and useful features.
             It permits users to <control>automatize tasks</control>, <control>add external services to their Discord

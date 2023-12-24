@@ -11,8 +11,8 @@
             Welcome to the Demon Slayer RPG.
         </description>
         <spotlight>
-            <a href="soon.topic" type="creative">Open World Content</a>
-            <a href="open-world-mechanics.topic" type="settings">Open World Mechanics</a>
+            <a href="open-world-content.topic" type="creative"><p>Open World Content</p></a>
+            <a href="open-world-mechanics.topic" type="settings"><p>Open World Mechanics</p></a>
         </spotlight>
         <primary>
             <title>Open World Content</title>
@@ -24,10 +24,11 @@
         </primary>
         <secondary>
             <title>Open World Mechanics</title>
-            <a href="daylight-cycle.topic"/>
             <a href="battles.topic"/>
+            <a href="daylight-cycle.topic"/>
             <a href="map-mechanics.topic"/>
             <a href="prestige-and-knowledge.topic"/>
+            <a href="profile.topic"/>
         </secondary>
 
     </section-starting-page>

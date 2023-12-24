@@ -16,11 +16,44 @@
         <tooltip term="rpg-stronger">stronger</tooltip>
     </snippet>
 
+    <!-- The list of skills -->
     <snippet id="tool-rpg-skill-strength">
         <tooltip term="rpg-skill-strength"><format color="Tomato">STRENGTH</format></tooltip>
     </snippet>
+    <snippet id="def-rpg-skill-strength"><p>%rpg-skill-strength%</p></snippet>
 
-    <snippet id="def-rpg-skill-strength">
-        <p>%rpg-skill-strength%</p>
+    <snippet id="tool-rpg-skill-durability">
+        <tooltip term="rpg-skill-durability"><format color="Tomato">DURABILITY</format></tooltip>
     </snippet>
+    <snippet id="def-rpg-skill-durability"><p>%rpg-skill-durability%</p></snippet>
+
+    <snippet id="tool-rpg-skill-endurance">
+        <tooltip term="rpg-skill-endurance"><format color="Tomato">ENDURANCE</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-endurance"><p>%rpg-skill-endurance%</p></snippet>
+
+    <snippet id="tool-rpg-skill-speed">
+        <tooltip term="rpg-skill-speed"><format color="Tomato">SPEED</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-speed"><p>%rpg-skill-speed%</p></snippet>
+
+    <snippet id="tool-rpg-skill-collection">
+        <tooltip term="rpg-skill-collection"><format color="Tomato">COLLECTION</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-collection"><p>%rpg-skill-collection%</p></snippet>
+
+    <snippet id="tool-rpg-skill-recovery">
+        <tooltip term="rpg-skill-recovery"><format color="Tomato">RECOVERY</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-recovery"><p>%rpg-skill-recovery%</p></snippet>
+
+    <snippet id="tool-rpg-skill-synergy">
+        <tooltip term="rpg-skill-synergy"><format color="Tomato">SYNERGY</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-synergy"><p>%rpg-skill-synergy%</p></snippet>
+
+    <snippet id="tool-rpg-skill-mental">
+        <tooltip term="rpg-skill-mental"><format color="Tomato">MENTAL</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-mental"><p>%rpg-skill-mental%</p></snippet>
 </topic>
