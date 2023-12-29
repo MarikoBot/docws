@@ -157,21 +157,21 @@
                         <td>0</td><td>50</td><td>100</td><td>150</td>
                         <td>200</td><td>400</td><td>450</td><td>500</td>
                         <td>550</td><td>600</td><td>800</td><td>850</td>
-                        <td>900</td><td>950</td><td>1000</td><td>1200</td>
+                        <td>900</td><td>950</td><td>1000</td><td>1,200</td>
                     </tr>
                     <tr>
                         <td>Total earned</td>
                         <td>0</td><td>50</td><td>150</td><td>300</td>
-                        <td>500</td><td>900</td><td>1350</td><td>1850</td>
-                        <td>2400</td><td>3000</td><td>3800</td><td>4650</td>
-                        <td>5550</td><td>6500</td><td>7500</td><td>8700</td>
+                        <td>500</td><td>900</td><td>1,350</td><td>1,850</td>
+                        <td>2,400</td><td>3,000</td><td>3,800</td><td>4,650</td>
+                        <td>5,550</td><td>6,500</td><td>7,500</td><td>8,700</td>
                     </tr>
                     <tr>
                         <td>Total required for next level</td>
                         <td>50</td><td>150</td><td>300</td><td>500</td>
-                        <td>900</td><td>1350</td><td>1850</td><td>2400</td>
-                        <td>3000</td><td>3800</td><td>4650</td><td>5550</td>
-                        <td>6500</td><td>7500</td><td>8700</td><td>9950</td>
+                        <td>900</td><td>1,350</td><td>1,850</td><td>2,400</td>
+                        <td>3,000</td><td>3,800</td><td>4,650</td><td>5,550</td>
+                        <td>6,500</td><td>7,500</td><td>8,700</td><td>9,950</td>
                     </tr>
                 </table>
             </tab>
