@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Fixed the deployment error">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2023_20_02_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2023_20_02__Changes_.xml" beforeDir="false" />
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Built with the new leveling chart">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/topics/profile.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/profile.topic" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/references.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/references.topic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +117,7 @@
       <workItem from="1703438044070" duration="66000" />
       <workItem from="1703438917061" duration="172000" />
       <workItem from="1703497134730" duration="158000" />
-      <workItem from="1703858403160" duration="5477000" />
+      <workItem from="1703858403160" duration="5994000" />
     </task>
     <task id="LOCAL-00001" summary="Publishing the first version of the daylight-cycle.topic">
       <option name="closed" value="true" />
@@ -266,7 +263,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703439043476</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Fixed the deployment error">
+      <option name="closed" value="true" />
+      <created>1703864514514</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1703864514514</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Built with the new leveling chart">
+      <option name="closed" value="true" />
+      <created>1703864562021</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1703864562021</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +320,7 @@
     <MESSAGE value="A lot of changes, I have seriously la flemme de tout marquer" />
     <MESSAGE value="Built" />
     <MESSAGE value="Fixed the deployment error" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed the deployment error" />
+    <MESSAGE value="Built with the new leveling chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="Built with the new leveling chart" />
   </component>
 </project>
