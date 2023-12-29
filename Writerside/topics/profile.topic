@@ -90,30 +90,30 @@
                                 But, for the pleasure of the most curious, there is the Python program that iterates a loop
                                 to calculate <code>x</code>.
                             </p>
-                            <code-block lang="python">
+                            <code-block lang="python" collapsible="true" default-state="collapsed" collapsed-title="global_formula.py" collapsed-title-line-number="1">
                                 import math
 
                                 x: int = 1 # The base player level
-                                # We do not start it at 0 because the player is not level 0
-                                # And it will add one more useless iteration
+                                           # We do not start it at 0 because the player is not level 0
+                                           # And it will add one more useless iteration
                                 z: int = 1000 # for example, let's pretend the player has 1000 experience points
 
                                 def L(target_x: int) -> int:
-                                """
-                                Our mathematics L function.
-                                """
-                                return 150 * math.floor(target_x/5) + 50 * target_x
+                                    """
+                                    Our mathematics L function.
+                                    """
+                                    return 150 * math.floor(target_x/5) + 50 * target_x
 
                                 def z_calculator(target_x: int) -> int:
-                                """
-                                Our expression with the sum.
-                                """
-                                return sum(L(n) for n in range(1, target_x))
+                                    """
+                                    Our expression with the sum.
+                                    """
+                                    return sum(L(n) for n in range(1, target_x))
 
                                 # Main loop
                                 while z >= 0:
-                                x += 1
-                                z -= z_calculator(x)
+                                    x += 1
+                                    z -= z_calculator(x)
 
                                 # Display the value of x
                                 print(f"x value: {x}")
@@ -128,13 +128,60 @@
                     remember that it is:
                 </p>
                 <p>
-                    <code>
-                        next_lvl_req = 150 * integer_of(x / 5) + 150x
-                    </code>
+                    <format style="bold">
+                        The required experience for the next level is 50 times the integer part of
+                        [the current level divided by five], plus 50 times the current level.
+                    </format>
                 </p>
+                <code-block lang="python">
+                    next_lvl_req = 150 * integer_of(x / 5) + 50x
+                </code-block>
                 <p>Here, <code>x</code> is our current level.</p>
             </def>
         </deflist>
+
+        <p>
+            There is the list of the required experience for the ten first levels.
+        </p>
+
+        <tabs>
+            <tab title="Table of values">
+                <table style="both">
+                    <tr>
+                        <td>Level</td>
+                        <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
+                        <td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td>
+                    </tr>
+                    <tr>
+                        <td>Required</td>
+                        <td>0</td><td>50</td><td>100</td><td>150</td>
+                        <td>200</td><td>400</td><td>450</td><td>500</td>
+                        <td>550</td><td>600</td><td>800</td><td>850</td>
+                        <td>900</td><td>950</td><td>1000</td><td>1200</td>
+                    </tr>
+                    <tr>
+                        <td>Total earned</td>
+                        <td>0</td><td>50</td><td>150</td><td>300</td>
+                        <td>500</td><td>900</td><td>1350</td><td>1850</td>
+                        <td>2400</td><td>3000</td><td>3800</td><td>4650</td>
+                        <td>5550</td><td>6500</td><td>7500</td><td>8700</td>
+                    </tr>
+                    <tr>
+                        <td>Total required for next level</td>
+                        <td>50</td><td>150</td><td>300</td><td>500</td>
+                        <td>900</td><td>1350</td><td>1850</td><td>2400</td>
+                        <td>3000</td><td>3800</td><td>4650</td><td>5550</td>
+                        <td>6500</td><td>7500</td><td>8700</td><td>9950</td>
+                    </tr>
+                </table>
+            </tab>
+
+            <tab title="Chart">
+                <img src="Mariko.Xp.png" width="1024" alt="Required" thumbnail="true"/>
+                <img src="Mariko.Xp2.png" width="1024" alt="Total" thumbnail="true"/>
+                <p>You can view the <a href="https://www.canva.com/design/DAF4X2_j7vs/BfcC83XKTwurVoEG-rPAFg/view">animated preview</a>.</p>
+            </tab>
+        </tabs>
     </chapter>
 
     <chapter id="skills-list" title="Skills list">

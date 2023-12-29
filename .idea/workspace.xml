@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Built">
+    <list default="true" id="5e41da7c-5098-4853-a636-65506515e8a3" name="Changes" comment="Fixed the deployment error">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2023_20_02_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_19_12_2023_20_02__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Writerside/topics/demon-slayer-rpg.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/demon-slayer-rpg.topic" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Writerside/topics/profile.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/profile.topic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Writerside/topics/references.topic" beforeDir="false" afterPath="$PROJECT_DIR$/Writerside/topics/references.topic" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +118,9 @@
       <workItem from="1703352497136" duration="2582000" />
       <workItem from="1703413909609" duration="14879000" />
       <workItem from="1703438044070" duration="66000" />
-      <workItem from="1703438917061" duration="108000" />
+      <workItem from="1703438917061" duration="172000" />
+      <workItem from="1703497134730" duration="158000" />
+      <workItem from="1703858403160" duration="5477000" />
     </task>
     <task id="LOCAL-00001" summary="Publishing the first version of the daylight-cycle.topic">
       <option name="closed" value="true" />
@@ -254,7 +258,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703438065604</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Fixed the deployment error">
+      <option name="closed" value="true" />
+      <created>1703439043476</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1703439043476</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,6 +306,7 @@
     <MESSAGE value="New built with a demo of STRENGTH" />
     <MESSAGE value="A lot of changes, I have seriously la flemme de tout marquer" />
     <MESSAGE value="Built" />
-    <option name="LAST_COMMIT_MESSAGE" value="Built" />
+    <MESSAGE value="Fixed the deployment error" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed the deployment error" />
   </component>
 </project>
