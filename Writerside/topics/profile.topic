@@ -267,8 +267,8 @@
                 <td><include from="profile-references.topic" element-id="def-rpg-skill-speed"/></td>
             </tr>
             <tr>
-                <td><include from="profile-references.topic" element-id="tool-rpg-skill-collection"/></td>
-                <td><include from="profile-references.topic" element-id="def-rpg-skill-collection"/></td>
+                <td><include from="profile-references.topic" element-id="tool-rpg-skill-absorption"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-skill-absorption"/></td>
             </tr>
             <tr>
                 <td><include from="profile-references.topic" element-id="tool-rpg-skill-recovery"/></td>
@@ -287,7 +287,7 @@
         <p>
             Each <include from="profile-references.topic" element-id="skill-format"/> has a close relation with some
             other <include from="profile-references.topic" element-id="skills-format"/> during situations.
-            For example, during battles, mental affects the "physical skills" group: strength, collection, speed.
+            For example, during battles, mental affects the "physical skills" group: strength, absorption, speed.
             The player needs to upgrade all their <include from="profile-references.topic" element-id="skills-format"/>
             synchronously to avoid getting stuck or being banged.
         </p>
@@ -381,7 +381,7 @@
                 <td>
                     <list type="decimal">
                         <li><include from="profile-references.topic" element-id="tool-rpg-skill-speed"/></li>
-                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-collection"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-absorption"/></li>
                     </list>
                 </td>
             </tr>
@@ -408,7 +408,7 @@
                 <td><include from="profile-references.topic" element-id="def-rpg-way-goliath"/></td>
                 <td>
                     <list type="decimal">
-                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-collection"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-absorption"/></li>
                         <li><include from="profile-references.topic" element-id="tool-rpg-skill-strength"/></li>
                     </list>
                 </td>

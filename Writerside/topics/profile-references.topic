@@ -27,10 +27,10 @@
     </snippet>
     <snippet id="def-rpg-skill-speed"><p>%rpg-skill-speed%</p></snippet>
 
-    <snippet id="tool-rpg-skill-collection">
-        <tooltip term="rpg-skill-collection"><format color="Crimson">Collection</format></tooltip>
+    <snippet id="tool-rpg-skill-absorption">
+        <tooltip term="rpg-skill-absorption"><format color="Crimson">Absorption</format></tooltip>
     </snippet>
-    <snippet id="def-rpg-skill-collection"><p>%rpg-skill-collection%</p></snippet>
+    <snippet id="def-rpg-skill-absorption"><p>%rpg-skill-absorption%</p></snippet>
 
     <snippet id="tool-rpg-skill-recovery">
         <tooltip term="rpg-skill-recovery"><format color="Crimson">Recovery</format></tooltip>

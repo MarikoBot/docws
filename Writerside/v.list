@@ -15,7 +15,7 @@
          value="Describes how fast the player can move and dash."
          type="string"
     />
-    <var name="rpg-skill-collection"
+    <var name="rpg-skill-absorption"
          value="Depicts the capacity to collect damages and to resist against a hit."
          type="string"
     />
