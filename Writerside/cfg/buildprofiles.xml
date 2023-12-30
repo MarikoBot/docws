@@ -5,8 +5,8 @@
     <variables>
         <color-preset>vivid</color-preset>
         <primary-color>iris</primary-color>
-        <header-logo>DocLogo.svg</header-logo>
-        <custom-favicons>DocLogo.svg</custom-favicons>
+        <header-logo>ButterflyPrism.svg</header-logo>
+        <custom-favicons>ButterflyPrism.svg</custom-favicons>
         <product-web-url>https://marikobot.github.io/docws/soon.html</product-web-url>
     </variables>
 

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Profile References" id="profile-references"
+       is-library="true" help-id="profile-references">
+
+    <!-- The list of skills -->
+    <snippet id="tool-rpg-skill-strength">
+        <tooltip term="rpg-skill-strength"><format color="Crimson">Strength</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-strength"><p>%rpg-skill-strength%</p></snippet>
+
+    <snippet id="tool-rpg-skill-durability">
+        <tooltip term="rpg-skill-durability"><format color="Crimson">Durability</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-durability"><p>%rpg-skill-durability%</p></snippet>
+
+    <snippet id="tool-rpg-skill-endurance">
+        <tooltip term="rpg-skill-endurance"><format color="Crimson">Endurance</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-endurance"><p>%rpg-skill-endurance%</p></snippet>
+
+    <snippet id="tool-rpg-skill-speed">
+        <tooltip term="rpg-skill-speed"><format color="Crimson">Speed</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-speed"><p>%rpg-skill-speed%</p></snippet>
+
+    <snippet id="tool-rpg-skill-collection">
+        <tooltip term="rpg-skill-collection"><format color="Crimson">Collection</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-collection"><p>%rpg-skill-collection%</p></snippet>
+
+    <snippet id="tool-rpg-skill-recovery">
+        <tooltip term="rpg-skill-recovery"><format color="Crimson">Recovery</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-recovery"><p>%rpg-skill-recovery%</p></snippet>
+
+    <snippet id="tool-rpg-skill-synergy">
+        <tooltip term="rpg-skill-synergy"><format color="Crimson">Synergy</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-synergy"><p>%rpg-skill-synergy%</p></snippet>
+
+    <snippet id="tool-rpg-skill-mental">
+        <tooltip term="rpg-skill-mental"><format color="Crimson">Mental</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-skill-mental"><p>%rpg-skill-mental%</p></snippet>
+
+    <!-- The list of ways -->
+    <snippet id="tool-rpg-way-warrior">
+        <tooltip term="rpg-way-warrior"><format color="MediumPurple">Warrior</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-way-warrior"><p>%rpg-way-warrior%</p></snippet>
+
+    <snippet id="tool-rpg-way-strategist">
+        <tooltip term="rpg-way-strategist"><format color="MediumPurple">Strategist</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-way-strategist"><p>%rpg-way-strategist%</p></snippet>
+
+    <snippet id="tool-rpg-way-agile">
+        <tooltip term="rpg-way-agile"><format color="MediumPurple">Agile</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-way-agile"><p>%rpg-way-agile%</p></snippet>
+
+    <snippet id="tool-rpg-way-goliath">
+        <tooltip term="rpg-way-goliath"><format color="MediumPurple">Goliath</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-way-goliath"><p>%rpg-way-goliath%</p></snippet>
+
+    <snippet id="tool-rpg-way-ninja">
+        <tooltip term="rpg-way-ninja"><format color="MediumPurple">Ninja</format></tooltip>
+    </snippet>
+    <snippet id="def-rpg-way-ninja"><p>%rpg-way-ninja%</p></snippet>
+
+    <!-- Leveling -->
+    <snippet id="leveling-charts-preview"><p>You can view the <a href="https://www.canva.com/design/DAF4X2_j7vs/BfcC83XKTwurVoEG-rPAFg/view">animated preview</a>.</p></snippet>
+
+    <!-- Definitions -->
+    <snippet id="way-format">
+        <format color="MediumPurple" style="bold">way</format>
+    </snippet>
+    <snippet id="ways-format">
+        <format color="MediumPurple" style="bold">ways</format>
+    </snippet>
+
+    <snippet id="skill-format">
+        <format color="Crimson" style="bold">skill</format>
+    </snippet>
+    <snippet id="skills-format">
+        <format color="Crimson" style="bold">skills</format>
+    </snippet>
+</topic>

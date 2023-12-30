@@ -13,7 +13,7 @@
         <deflist collapsible="true">
             <def title="鬼滅の刃: Demon Slayer RPG" collapsible="true" default-state="expanded">
                 <p>
-                    The bot provides a whole RPG game. Dive into the verse of Koyoharu Gotouge and embody a character
+                    The bot provides a whole RPG game. Dive into the universe of Koyoharu Gotouge and embody a character
                     <b>to become the strongest slayer</b>, or <b>the most devilish demon</b>.
                 </p>
             </def>
@@ -30,5 +30,7 @@
             It permits users to <control>automatize tasks</control>, <control>add external services to their Discord
             server</control>, and <control>enhance the user experience</control>.
         </p>
+
+        <p>Start discover our <a href="demon-slayer-rpg.topic">Demon Slayer RPG now</a>.</p>
     </chapter>
 </topic>
