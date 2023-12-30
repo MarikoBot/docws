@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic
+        SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
+<topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
+       title="Daylight Cycle References" id="daylight-cycle-references"
+       is-library="true">
+
+    <snippet id="day-format">
+        <format style="bold" color="GoldenRod">day</format>
+    </snippet>
+    <snippet id="night-format">
+        <format style="bold" color="CornflowerBlue">night</format>
+    </snippet>
+    <snippet id="def-stronger">
+        <tooltip term="rpg-stronger">stronger</tooltip>
+    </snippet>
+</topic>

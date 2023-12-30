@@ -31,4 +31,20 @@
          value="The mental resistance of the player. A low mental will redirect to a faster physical breaking. It is also the 'aura' the player has."
          type="string"
     />
+
+    <var name="rpg-way-warrior"
+         value="The warrior way. The most balanced class. Kamado Tanjirō like."
+         type="string"/>
+    <var name="rpg-way-strategist"
+         value="The strategist way. Perfect for the smartest among you. Kochō Shinobu like."
+         type="string"/>
+    <var name="rpg-way-agile"
+         value="The agile way. 150 grams can move 150 kilograms. Iguro Obanai like."
+         type="string"/>
+    <var name="rpg-way-goliath"
+         value="The goliath way. Tanking is its keyword. Himejima Gyômei like."
+         type="string"/>
+    <var name="rpg-way-ninja"
+         value="The ninja way. The most adapted way for the most class people. Uzui Tengen like."
+         type="string"/>
 </vars>

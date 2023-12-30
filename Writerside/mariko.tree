@@ -22,5 +22,11 @@
             <toc-element topic="profile.topic"/>
         </toc-element>
     </toc-element>
+    <toc-element topic="policies.topic">
+        <toc-element topic="legal-notices.topic"/>
+        <toc-element topic="terms-of-service.topic"/>
+        <toc-element topic="privacy-policy.topic"/>
+        <toc-element topic="branding.topic"/>
+    </toc-element>
     <toc-element topic="soon.topic"/>
 </instance-profile>

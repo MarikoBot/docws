@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="👘 Profile" id="profile">
+       title="› Profile" id="profile">
 
     <p>This is the profile mechanic page.</p>
 
@@ -141,99 +141,162 @@
         </deflist>
 
         <p>
-            There is the list of the required experience for the ten first levels.
+            There is the list of the required experience for the first sixteen levels.
+            The leveling system does not have a limit concerning the max level.
         </p>
 
-        <tabs>
-            <tab title="Table of values">
+        <deflist>
+            <def title="Table of values">
                 <table style="both">
                     <tr>
-                        <td>Level</td>
-                        <td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td>
-                        <td>9</td><td>10</td><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td>
+                        <td><p>Level</p></td>
+                        <td><p>1</p></td>
+                        <td><p>2</p></td>
+                        <td><p>3</p></td>
+                        <td><p>4</p></td>
+                        <td><p>5</p></td>
+                        <td><p>6</p></td>
+                        <td><p>7</p></td>
+                        <td><p>8</p></td>
+                        <td><p>9</p></td>
+                        <td><p>10</p></td>
+                        <td><p>11</p></td>
+                        <td><p>12</p></td>
+                        <td><p>13</p></td>
+                        <td><p>14</p></td>
+                        <td><p>15</p></td>
+                        <td><p>16</p></td>
                     </tr>
                     <tr>
-                        <td>Required</td>
-                        <td>0</td><td>50</td><td>100</td><td>150</td>
-                        <td>200</td><td>400</td><td>450</td><td>500</td>
-                        <td>550</td><td>600</td><td>800</td><td>850</td>
-                        <td>900</td><td>950</td><td>1000</td><td>1,200</td>
+                        <td><p>Required</p></td>
+                        <td><p>0</p></td>
+                        <td><p>50</p></td>
+                        <td><p>100</p></td>
+                        <td><p>150</p></td>
+                        <td><p>200</p></td>
+                        <td><p>400</p></td>
+                        <td><p>450</p></td>
+                        <td><p>500</p></td>
+                        <td><p>550</p></td>
+                        <td><p>600</p></td>
+                        <td><p>800</p></td>
+                        <td><p>850</p></td>
+                        <td><p>900</p></td>
+                        <td><p>950</p></td>
+                        <td><p>1000</p></td>
+                        <td><p>1,200</p></td>
                     </tr>
                     <tr>
-                        <td>Total earned</td>
-                        <td>0</td><td>50</td><td>150</td><td>300</td>
-                        <td>500</td><td>900</td><td>1,350</td><td>1,850</td>
-                        <td>2,400</td><td>3,000</td><td>3,800</td><td>4,650</td>
-                        <td>5,550</td><td>6,500</td><td>7,500</td><td>8,700</td>
+                        <td><p>Total earned</p></td>
+                        <td><p>0</p></td>
+                        <td><p>50</p></td>
+                        <td><p>150</p></td>
+                        <td><p>300</p></td>
+                        <td><p>500</p></td>
+                        <td><p>900</p></td>
+                        <td><p>1,350</p></td>
+                        <td><p>1,850</p></td>
+                        <td><p>2,400</p></td>
+                        <td><p>3,000</p></td>
+                        <td><p>3,800</p></td>
+                        <td><p>4,650</p></td>
+                        <td><p>5,550</p></td>
+                        <td><p>6,500</p></td>
+                        <td><p>7,500</p></td>
+                        <td><p>8,700</p></td>
                     </tr>
                     <tr>
-                        <td>Total required for next level</td>
-                        <td>50</td><td>150</td><td>300</td><td>500</td>
-                        <td>900</td><td>1,350</td><td>1,850</td><td>2,400</td>
-                        <td>3,000</td><td>3,800</td><td>4,650</td><td>5,550</td>
-                        <td>6,500</td><td>7,500</td><td>8,700</td><td>9,950</td>
+                        <td><p>Total required for next level</p></td>
+                        <td><p>50</p></td>
+                        <td><p>150</p></td>
+                        <td><p>300</p></td>
+                        <td><p>500</p></td>
+                        <td><p>900</p></td>
+                        <td><p>1,350</p></td>
+                        <td><p>1,850</p></td>
+                        <td><p>2,400</p></td>
+                        <td><p>3,000</p></td>
+                        <td><p>3,800</p></td>
+                        <td><p>4,650</p></td>
+                        <td><p>5,550</p></td>
+                        <td><p>6,500</p></td>
+                        <td><p>7,500</p></td>
+                        <td><p>8,700</p></td>
+                        <td><p>9,950</p></td>
                     </tr>
                 </table>
-            </tab>
-
-            <tab title="Chart">
-                <img src="Mariko.Xp.png" width="1024" alt="Required" thumbnail="true"/>
-                <img src="Mariko.Xp2.png" width="1024" alt="Total" thumbnail="true"/>
-                <p>You can view the <a href="https://www.canva.com/design/DAF4X2_j7vs/BfcC83XKTwurVoEG-rPAFg/view">animated preview</a>.</p>
-            </tab>
-        </tabs>
+            </def>
+            <def title="Charts">
+                <tabs>
+                    <tab title="Required/level Chart">
+                        <img src="Mariko.Xp.png" width="1024" alt="Required" thumbnail="true"/>
+                        <include from="profile-references.topic" element-id="leveling-charts-preview"/>
+                    </tab>
+                    <tab title="Totals/level Chart">
+                        <img src="Mariko.Xp2.png" width="1024" alt="Total" thumbnail="true"/>
+                        <include from="profile-references.topic" element-id="leveling-charts-preview"/>
+                    </tab>
+                </tabs>
+            </def>
+        </deflist>
     </chapter>
 
-    <chapter id="skills-list" title="Skills list">
+    <chapter id="skills" title="Skills">
         <p>
-            Skills determine how strong a player is. More their skills are upgraded, more redoutable the player becomes.
+            The <include from="profile-references.topic" element-id="skills-format"/> determine how strong a
+            player is.
+            More their <include from="profile-references.topic" element-id="skills-format"/> are upgraded,
+            more redoutable the player becomes.
         </p>
 
         <table style="header-column">
             <tr>
-                <td><include from="references.topic" element-id="tool-rpg-skill-strength"/></td>
-                <td><include from="references.topic" element-id="def-rpg-skill-strength"/></td>
+                <td><include from="profile-references.topic" element-id="tool-rpg-skill-strength"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-skill-strength"/></td>
             </tr>
             <tr>
-                <td><include from="references.topic" element-id="tool-rpg-skill-durability"/></td>
-                <td><include from="references.topic" element-id="def-rpg-skill-durability"/></td>
+                <td><include from="profile-references.topic" element-id="tool-rpg-skill-durability"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-skill-durability"/></td>
             </tr>
             <tr>
-                <td><include from="references.topic" element-id="tool-rpg-skill-endurance"/></td>
-                <td><include from="references.topic" element-id="def-rpg-skill-endurance"/></td>
+                <td><include from="profile-references.topic" element-id="tool-rpg-skill-endurance"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-skill-endurance"/></td>
             </tr>
             <tr>
-                <td><include from="references.topic" element-id="tool-rpg-skill-speed"/></td>
-                <td><include from="references.topic" element-id="def-rpg-skill-speed"/></td>
+                <td><include from="profile-references.topic" element-id="tool-rpg-skill-speed"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-skill-speed"/></td>
             </tr>
             <tr>
-                <td><include from="references.topic" element-id="tool-rpg-skill-collection"/></td>
-                <td><include from="references.topic" element-id="def-rpg-skill-collection"/></td>
+                <td><include from="profile-references.topic" element-id="tool-rpg-skill-collection"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-skill-collection"/></td>
             </tr>
             <tr>
-                <td><include from="references.topic" element-id="tool-rpg-skill-recovery"/></td>
-                <td><include from="references.topic" element-id="def-rpg-skill-recovery"/></td>
+                <td><include from="profile-references.topic" element-id="tool-rpg-skill-recovery"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-skill-recovery"/></td>
             </tr>
             <tr>
-                <td><include from="references.topic" element-id="tool-rpg-skill-synergy"/></td>
-                <td><include from="references.topic" element-id="def-rpg-skill-synergy"/></td>
+                <td><include from="profile-references.topic" element-id="tool-rpg-skill-synergy"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-skill-synergy"/></td>
             </tr>
             <tr>
-                <td><include from="references.topic" element-id="tool-rpg-skill-mental"/></td>
-                <td><include from="references.topic" element-id="def-rpg-skill-mental"/></td>
+                <td><include from="profile-references.topic" element-id="tool-rpg-skill-mental"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-skill-mental"/></td>
             </tr>
         </table>
 
         <p>
-            Each skill has a close relation with some other skills during situations.
+            Each <include from="profile-references.topic" element-id="skill-format"/> has a close relation with some
+            other <include from="profile-references.topic" element-id="skills-format"/> during situations.
             For example, during battles, mental affects the "physical skills" group: strength, collection, speed.
-            The player needs to upgrade all their skills synchronously to avoid getting stuck or being banged.
+            The player needs to upgrade all their <include from="profile-references.topic" element-id="skills-format"/>
+            synchronously to avoid getting stuck or being banged.
         </p>
     </chapter>
 
-    <chapter id="skills-upgrades" title="Skills upgrades">
+    <chapter id="skill-upgrades" title="Skill upgrades">
         <p>
-            You are probably wondering how the player upgrades/increases their skills level.
+            You are probably wondering how the player upgrades/increases their
+            <include from="profile-references.topic" element-id="skills-format"/> level.
             There are three ways to do it: <control>competing battles</control>, <control>training</control> and
             <control>leveling up.</control>
         </p>
@@ -241,16 +304,18 @@
         <deflist type="full">
             <def title="Competing battles">
                 <p>
-                    Battling makes you increase your skills.
-                    When a battle ends, the result determines the amount of skills you get.
-                    If you lose, the skills augmentation will be divided by 4 for the battle (e.g. you win 25 mental
-                    points instead of 100).
+                    Battling makes you increase your
+                    <include from="profile-references.topic" element-id="skills-format"/>.
+                    When a battle ends, the result determines the amount of enhancement you get.
+                    If you lose, the <include from="profile-references.topic" element-id="skills-format"/> augmentation
+                    will be divided by 4 for the battle (e.g. you win 25 mental points instead of 100).
                 </p>
             </def>
             <def title="Training">
                 <p>
-                    Basically, if you want to progress and enhance a skill, the most logical way to do it is still
-                    training.
+                    Basically, if you want to progress and enhance a
+                    <include from="profile-references.topic" element-id="skill-format"/>, the most logical way to do it
+                    is still training.
                     Training are composed of mini-games directly with Discord components (buttons).
                     Better your score will be, more enhancement you get.
                 </p>
@@ -263,10 +328,134 @@
             </def>
             <def title="Leveling up">
                 <p>
-                    When you level up, your skills' base increases proportionally with your current level.
+                    When you level up, your <include from="profile-references.topic" element-id="skills-format"/>' base
+                    increases proportionally with your current level.
                     The increase is not big, but it makes the difference on the long term.
                 </p>
             </def>
         </deflist>
+    </chapter>
+
+    <chapter id="way-list" title="Ways">
+        <p>
+            The <include from="profile-references.topic" element-id="way-format"/> is basically the RPG class of the
+            game.
+            Each <include from="profile-references.topic" element-id="way-format"/> has <control>2 strong</control>
+            <include from="profile-references.topic" element-id="skill-format"/> and <control>2 weak</control>
+            <include from="profile-references.topic" element-id="skill-format"/>.
+        </p>
+
+        <table style="both">
+            <tr>
+                <td><p>Way</p></td>
+                <td><p>Description</p></td>
+                <td><p>Strong skills</p></td>
+                <td><p>Weak skills</p></td>
+            </tr>
+            <tr>
+                <td><include from="profile-references.topic" element-id="tool-rpg-way-warrior"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-way-warrior"/></td>
+                <td>
+                    <list type="decimal">
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-strength"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-durability"/></li>
+                    </list>
+                </td>
+                <td>
+                    <list type="decimal">
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-speed"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-recovery"/></li>
+                    </list>
+                </td>
+            </tr>
+
+            <tr>
+                <td><include from="profile-references.topic" element-id="tool-rpg-way-strategist"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-way-strategist"/></td>
+                <td>
+                    <list type="decimal">
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-synergy"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-mental"/></li>
+                    </list>
+                </td>
+                <td>
+                    <list type="decimal">
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-speed"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-collection"/></li>
+                    </list>
+                </td>
+            </tr>
+
+            <tr>
+                <td><include from="profile-references.topic" element-id="tool-rpg-way-agile"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-way-agile"/></td>
+                <td>
+                    <list type="decimal">
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-endurance"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-speed"/></li>
+                    </list>
+                </td>
+                <td>
+                    <list type="decimal">
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-strength"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-recovery"/></li>
+                    </list>
+                </td>
+            </tr>
+
+            <tr>
+                <td><include from="profile-references.topic" element-id="tool-rpg-way-goliath"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-way-goliath"/></td>
+                <td>
+                    <list type="decimal">
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-collection"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-strength"/></li>
+                    </list>
+                </td>
+                <td>
+                    <list type="decimal">
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-synergy"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-endurance"/></li>
+                    </list>
+                </td>
+            </tr>
+
+            <tr>
+                <td><include from="profile-references.topic" element-id="tool-rpg-way-ninja"/></td>
+                <td><include from="profile-references.topic" element-id="def-rpg-way-ninja"/></td>
+                <td>
+                    <list type="decimal">
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-speed"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-synergy"/></li>
+                    </list>
+                </td>
+                <td>
+                    <list type="decimal">
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-strength"/></li>
+                        <li><include from="profile-references.topic" element-id="tool-rpg-skill-durability"/></li>
+                    </list>
+                </td>
+            </tr>
+        </table>
+    </chapter>
+
+    <chapter id="ways-skills" title="Ways' skills">
+        <p>
+            The <include from="profile-references.topic" element-id="skills-format"/> of a
+            <include from="profile-references.topic" element-id="way-format"/> are divided into 2 categories:
+            <control>strong</control> and <control>weak</control>.
+        </p>
+
+        <p>
+            A <control>strong</control> <include from="profile-references.topic" element-id="skill-format"/> improves
+            the base value of the <include from="profile-references.topic" element-id="skill-format"/> by
+            <code>7%</code>.
+            A <control>weak</control> <include from="profile-references.topic" element-id="skill-format"/> decreases
+            the base value of the <include from="profile-references.topic" element-id="skill-format"/> by
+            <code>7%</code> too.
+            It means that the <include from="profile-references.topic" element-id="skills-format"/> are balancing the
+            buffs and the debuffs.
+            Then, each way is balanced compared to each other.
+        </p>
     </chapter>
 </topic>

@@ -11,4 +11,10 @@
     <term name="rpg-skill-recovery">%rpg-skill-recovery%</term>
     <term name="rpg-skill-synergy">%rpg-skill-synergy%</term>
     <term name="rpg-skill-mental">%rpg-skill-mental%</term>
+
+    <term name="rpg-way-warrior">%rpg-way-warrior%</term>
+    <term name="rpg-way-strategist">%rpg-way-strategist%</term>
+    <term name="rpg-way-agile">%rpg-way-agile%</term>
+    <term name="rpg-way-goliath">%rpg-way-goliath%</term>
+    <term name="rpg-way-ninja">%rpg-way-ninja%</term>
 </terms>

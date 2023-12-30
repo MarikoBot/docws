@@ -3,7 +3,7 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/xhtml-entities.dtd">
 <topic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
-       title="🌓 Daylight Cycle" id="daylight-cycle"
+       title="› Daylight Cycle" id="daylight-cycle"
        switcher-label="test" help-id="Daylight-Cycle">
 
     <p>This is the daylight cycle mechanic page.</p>
@@ -31,8 +31,8 @@
                         <td width="100px"><p>Trigger</p></td>
                         <td>
                             <p>
-                                <control>The <include from="references.topic" element-id="day-format"/>
-                                and the <include from="references.topic" element-id="night-format"/>
+                                <control>The <include from="daylight-cycle-references.topic" element-id="day-format"/>
+                                and the <include from="daylight-cycle-references.topic" element-id="night-format"/>
                                 are switching based on the user activities.</control>
                                 When he does some quests/activities, the daylight switches.
                             </p>
@@ -42,8 +42,8 @@
                         <snippet id="solo-human-table-stronger-row"><td width="100px"><p>Stronger</p></td></snippet>
                         <td>
                             <p>
-                                The humans are <include from="references.topic" element-id="def-stronger"/>
-                                during the <include from="references.topic" element-id="day-format" />.
+                                The humans are <include from="daylight-cycle-references.topic" element-id="def-stronger"/>
+                                during the <include from="daylight-cycle-references.topic" element-id="day-format" />.
                                 The night can be hostile for them.
                             </p>
                         </td>
@@ -54,14 +54,14 @@
                             <list type="bullet">
                                 <li>
                                     <p>
-                                        Free <include from="references.topic" element-id="day-format" />-exploring at
+                                        Free <include from="daylight-cycle-references.topic" element-id="day-format" />-exploring at
                                         the outside without constraint.
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         Quests objectives are mostly during the
-                                        <include from="references.topic" element-id="day-format" /> (excepted demon
+                                        <include from="daylight-cycle-references.topic" element-id="day-format" /> (excepted demon
                                         hunting missions).
                                     </p>
                                 </li>
@@ -76,13 +76,13 @@
                             <list type="bullet">
                                 <li>
                                     <p>
-                                        During the <include from="references.topic" element-id="day-format" />, dark
+                                        During the <include from="daylight-cycle-references.topic" element-id="day-format" />, dark
                                         places can be dangerous.
                                     </p>
                                 </li>
                                 <li>
                                     <p>
-                                        During the <include from="references.topic" element-id="night-format" />, they
+                                        During the <include from="daylight-cycle-references.topic" element-id="night-format" />, they
                                         should stay safe if they are not in mission.
                                     </p>
                                 </li>
@@ -100,8 +100,8 @@
                         <include from="daylight-cycle.topic" element-id="solo-human-table-stronger-row"/>
                         <td>
                             <p>
-                                The demons are <include from="references.topic" element-id="def-stronger"/>
-                                during the <include from="references.topic" element-id="night-format" />.
+                                The demons are <include from="daylight-cycle-references.topic" element-id="def-stronger"/>
+                                during the <include from="daylight-cycle-references.topic" element-id="night-format" />.
                                 The day is hostile for them.
                             </p>
                         </td>
@@ -113,14 +113,14 @@
                             <list type="bullet">
                                 <li>
                                     <p>
-                                        Free <include from="references.topic" element-id="night-format" />-exploring at
+                                        Free <include from="daylight-cycle-references.topic" element-id="night-format" />-exploring at
                                         the outside without constraint.
                                     </p>
                                 </li>
                                 <li>
                                     <p>
                                         Quests objectives are mostly during the
-                                        <include from="references.topic" element-id="night-format" /> (excepted human
+                                        <include from="daylight-cycle-references.topic" element-id="night-format" /> (excepted human
                                         hunting missions).
                                     </p>
                                 </li>
@@ -134,7 +134,7 @@
                             <list type="bullet">
                                 <li>
                                     <p>
-                                        During the <include from="references.topic" element-id="day-format" />, sun
+                                        During the <include from="daylight-cycle-references.topic" element-id="day-format" />, sun
                                         exposed places are fatal.
                                         Moreover, they should stay safe if they are not in mission.
                                     </p>
