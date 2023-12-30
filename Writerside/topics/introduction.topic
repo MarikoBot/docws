@@ -5,7 +5,7 @@
        xsi:noNamespaceSchemaLocation="https://resources.jetbrains.com/writerside/1.0/topic.v2.xsd"
        title="Introduction to Mariko" id="introduction">
 
-    <chapter title="What is Mariko ?" id="what-is-mariko">
+    <chapter title="What is Mariko?" id="what-is-mariko">
         <p>
             Mariko is a <a href="#what-is-a-discord-bot">Discord bot</a> that provides powerful and multipurpose tools.
         </p>
@@ -20,7 +20,7 @@
         </deflist>
     </chapter>
 
-    <chapter title="What is a Discord bot ?" id="what-is-a-discord-bot">
+    <chapter title="What is a Discord bot?" id="what-is-a-discord-bot">
         <p>
             It goes from moderation and music, to administration, utils and a full Demon Slayer role-playing game.
         </p>
